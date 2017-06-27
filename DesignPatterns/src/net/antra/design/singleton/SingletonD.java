@@ -8,6 +8,9 @@ public class SingletonD {
 			synchronized(SingletonD.class){
 				if(instance == null){
 					instance = new SingletonD();
+					//
+					//takes 5 sec
+					//
 				}
 			}
 		}

@@ -15,4 +15,10 @@ public class FruitFactory2 {
 	public Object createFruit(String name){
 		return fruitMap.get(name);
 	}
+	
+	public static void main(String[] args) {
+		FruitFactory2 f2 = new FruitFactory2();
+		f2.createFruit("apple");
+		f2.createFruit("apple");
+	}
 }
