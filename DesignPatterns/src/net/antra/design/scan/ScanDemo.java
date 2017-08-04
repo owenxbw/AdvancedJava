@@ -1,4 +1,4 @@
-package net.antra.design.ioc;
+package net.antra.design.scan;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Field;

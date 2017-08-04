@@ -1,4 +1,4 @@
-package net.antra.design.ioc;
+package net.antra.design.scan;
 
 public class TestScan {
 
